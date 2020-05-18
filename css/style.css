@@ -1,0 +1,813 @@
+/*--------------------------------
+        INFO-HEADER
+--------------------------------*/
+.info{
+    width: 100%;
+    background-color: #64649B;
+    min-height: 40px;
+    font-family: 'Bellota Text', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.container-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.container-info a{
+    color: black;
+    font-weight: bold;
+
+    transition: all .3s linear;
+}
+
+.container-info a:hover{
+    color: white;
+}
+
+/*--------------------------------
+        HEADER
+--------------------------------*/
+
+.header{
+    width: 100%;
+    min-height: 120px;
+    background-color: black;
+}
+
+.container-header{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 38px 0;
+}
+
+.container-header p{
+    font-family: 'Cinzel Decorative', 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    align-self: center;
+    font-size: 2.2em;
+}
+
+.nav-header ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.nav-header ul li{
+    padding: 10px 0;
+}
+
+.nav-header ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    padding: 10px 19px;
+  }
+
+  .nav-header ul li a:hover{  
+    border-top: 1.3px solid white;
+    border-bottom: 1.3px solid white;
+}
+
+
+/*--------------------------------
+        SECTION BANNER INICIAL
+--------------------------------*/
+
+.banner-inicial{
+    width: 100%;
+    background-image: url(../Img/home.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 840px;
+}
+
+.content-banner{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-banner h1{
+    font-size: 3.93em;
+    font-weight: bold;
+    padding-top: 245px;
+    margin-bottom: 75px;
+}
+
+.content-banner h2{
+    font-size: 2.18em;
+    margin-bottom: 75px;
+}
+
+/*--------------------------------
+        BOTÕES
+--------------------------------*/
+
+.btn-black{
+    border: 5px solid black;
+    background-color: rgba(0,0,0,.9);
+    color: #64649B;
+    text-align: center;
+    font-family: 'Bellota Text', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: all .2s linear;
+    display: block;
+    padding: 10px 0;
+    width: 10%;
+    box-shadow: 0 5px black;
+}
+
+.btn-black:hover{
+    background-color: rgba(0,0,0,.94);
+    color: white
+}
+
+.btn-black:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.btn-white{
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: 'Bellota Text', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: color .2s linear;
+    display: block;
+    padding: 10px 0;
+    width: 17%;
+    margin-top: 20px;
+
+    box-shadow: 0px 7px white;
+}
+
+.btn-white:hover{
+    border-color: #64649B;
+    color: #64649B;
+    box-shadow: 0px 7px #64649B;
+}
+
+.btn-white:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+/*--------------------------------
+        SECTION CONTACT
+--------------------------------*/
+
+.contact{
+    background-color: black;
+    min-height: 480px;
+    width: 100%;
+}
+
+.content-contact{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-contact h2{
+    color: white;
+    font-size: 1.6em;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 30px 0;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content-contact address, .content-contact a, .btn-white{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content-contact address{
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+}
+
+.content-contact a{
+    transition: all .2s linear;
+}
+
+.content-contact a:hover{
+    color: #64649B;
+}
+
+.icon{
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+
+/*--------------------------------
+        SECTION INTRODUÇAO LEX
+--------------------------------*/
+
+.introduçao-Lex{
+    width: 100%;
+    background-image: url(../Img/FundoLivros.jpg);
+    min-height: 180px;
+}
+
+.content-introduçao{
+    max-width: 80%;
+    margin: auto;
+}
+
+.content-introduçao h2{
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 90px 0;
+    margin: auto;
+}
+
+/*--------------------------------
+        SECTION FRASES
+--------------------------------*/
+.frases{
+    width: 100%;
+    min-height: 175px;
+    background-color: #64649B;
+}
+
+.container-frases{
+    max-width: 50%;
+    margin: auto;
+    padding: 75px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-frases q{
+    text-align: center;
+    font-size: 1.70em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.container-frases p{
+    font-size: 1.10em;
+    align-self: flex-end;
+}
+
+/*--------------------------------
+        SECTION DR. JUNIOR
+--------------------------------*/
+
+.sobre-dr{
+    width: 100%;
+    min-height: 650px;
+    background-image: url(../Img/Lamparina.jpg);
+    background-size: cover;
+    background-position: center right;
+}
+
+.container-sobre-dr{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container-sobre-dr h2{
+    color: black;
+    font-size: 1.6em;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 30px 0;
+    font-weight: bold;
+    display: inline-block;
+    margin: 50px 0 15px;
+}
+
+.bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.bio img{
+    border-bottom: 5px solid black;
+    width: 230px;
+    max-height: 395px;
+    padding: 15px 0;
+}
+
+.bio p{
+    width: 60%;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.7;
+    font-weight: bold
+}
+
+.bio .fa-balance-scale, .bio-fundador .fa-balance-scale{
+    padding: 25px 0;
+}
+
+/*--------------------------------
+        SECTION LEX
+--------------------------------*/
+
+.sobre-lex{
+    width: 100%;
+    min-height: 690px;
+    background-image: url(../Img/back-lex.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.container-sobre-lex{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-h2{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container-h2 h2{
+    color: white;
+    font-size: 1.6em;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 30px 0;
+    font-weight: bold;
+    display: inline-block;
+    margin: 50px 0 15px;
+}
+
+.content-sobre-lex{
+    max-width: 80%;
+    margin-top: 20px;
+}
+
+.text-lex{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 80px 100px;
+}
+
+.text-lex p{
+    font-family: 'Bellota Text', Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.9;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.btn-lex{
+    width: 15%;
+    margin: 40px auto;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-self: center;
+
+    transition: all .2s linear;
+}
+
+.btn-lex:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-color: white;
+    box-shadow: 0px 7px white;
+}
+
+
+.btn-lex:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+/*--------------------------------
+        SECTION FUNDADOR
+--------------------------------*/
+
+.fundador{
+    width: 100%;
+    background-image: url(../Img/back-fundador.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    min-height: 750px;
+}
+
+.container-sobre-fundador{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-sobre-fundador h2{
+    color: white;
+    font-size: 1.6em;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 30px 0;
+    font-weight: bold;
+    display: inline-block;
+    margin: 50px 0 15px;
+    text-align: center;
+}
+
+.bio-fundador{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bio-fundador img{
+    width: 230px;
+    max-height: 315px;
+    box-shadow: -9px 9px rgba(255,255,255,.5);
+}
+
+.text-fundador{
+    width: 60%;
+    color: white;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.2em;
+}
+
+/*--------------------------------
+        FOOTER AND MAP
+--------------------------------*/
+
+.maps iframe{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    min-height: 275px;
+    font-family: 'Bellota Text', Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-footer{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-footer{
+    padding-top: 50px;
+}
+
+.nav-footer p{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #64649B;
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-footer li{
+    padding: 10px 0;
+}
+
+.nav-footer a{
+    color: white;
+}
+
+.content-footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.content-footer address{
+    color: white;
+    text-align: center;
+}
+
+.content-footer p{
+    color: #64649B;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-footer a{
+    color: white;
+    padding: 8px 0;
+}
+
+.icon-footer{
+    margin-right: 5px;
+}
+
+.subfooter{
+    width: 100%;
+    background-color: #64649B;
+    min-height: 100px;
+    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+footer a:hover{
+    color: #64649B;
+    padding-bottom: 3px;
+}
+
+.container-subfooter{
+    max-width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.container-subfooter p{
+    padding: 10px 0 5px 0;
+}
+
+.container-subfooter a{
+    color: black;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+
+.container-subfooter a:hover{
+    color: white;
+}
+
+/*--------------------------------
+        RESPONSIVIDADE
+--------------------------------*/
+
+@media screen and (max-width: 1024px){
+    .btn-black{
+        width: 20%;
+    }
+
+    .btn-white{
+        width: 20%;
+    }
+
+    .sobre-lex{
+        min-height: 750px;
+    }
+
+    .container-frases{
+        max-width: 70%;
+    }
+
+    .container-frases q{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+      /*MENU HAMBURGUER*/
+      .nav-header{
+        display: block;
+        width: 100%;
+    }
+
+    .nav-header ul li{
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-bottom: 2px solid white;
+        padding: 20px 0;
+    }
+
+    .nav-header ul li:first-child{
+        border-top: 2px solid white;
+        margin-top: 15px;
+    }
+    /*--------------------------*/
+
+    .nav-header ul li a:hover{
+        border: none;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .banner-inicial{
+        min-height: 650px;
+    }
+
+    .content-banner{
+        text-align: center;
+    }
+
+    .content-banner h1{
+        font-size: 3.3em;
+        padding-top: 215px;
+    }
+
+    .content-banner h2{
+        font-size: 1.6em;
+    }
+
+    .content-introduçao h2{
+        font-size: 1.5em;
+        padding: 70px 0;
+    }
+
+    .btn-white{
+        width: 30%;
+    }
+
+    .container-frases p{
+        align-self: center;
+    }
+
+    .sobre-dr{
+        background-position: center left;
+    }
+
+    .container-sobre-dr h2{
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .bio{
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio p{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 1.25em;
+    }
+
+    .sobre-lex{
+        min-height: 750px;
+    }
+
+    .bio-fundador{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-fundador{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .container-footer{
+        justify-content: center;
+    }
+
+    .nav-footer{
+        text-align: center;
+    }
+
+    .content-footer{
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container-header p{
+        font-size: 1.9em;
+    }
+
+    .banner-inicial{
+        min-height: 550px;
+    }
+
+    .content-banner h1{
+        font-size: 2.9em;
+        padding-top: 130px;
+        margin-bottom: 50px;
+    }
+
+    .content-banner h2{
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    .btn-white{
+        width: 50%;
+    }
+
+    .btn-black{
+        width: 40%;
+    }
+
+    .content-contact h2{
+        font-size: 1.37em;
+    }
+
+    .content-introduçao h2{
+        padding: 50px 0 40px;
+    }
+
+    .sobre-dr{
+        min-height: 770px;
+    }
+
+    .sobre-dr h2{
+        font-size: 1.2em;
+    }
+
+    .content-sobre-lex{
+        max-width: 100%;
+    }
+
+    .text-lex{
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .container-header p{
+        font-size: 1.5em;
+    }
+
+    .content-contact h2{
+        margin-top: 30px;
+    }
+
+    .btn-white{
+        width: 70%;
+    }
+
+    .content-introduçao h2{
+        padding: 40px 0 30px;
+    }
+
+    .text-lex{
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .content-banner h1{
+        font-size: 2em;
+    }
+
+    .content-banner h2{
+        font-size: 1.2em;
+    }
+
+    .content-contact h2{
+        font-size: 1.23em;
+    }
+
+    .content-introduçao h2{
+        padding: 25px 0;
+    }
+}
+
+/*MENU HAMBURGUER*/
+
+.header__btnMenu{
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: white;
+}
+
+.js .nav-header{
+    transition: max-height 1s linear;
+}
+
+@media screen and (min-width: 769px){
+    .header__btnMenu{
+        display: none;
+    }
+}
