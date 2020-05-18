@@ -26,16 +26,6 @@ $('.contact a:last-child').click(function(e){
         menuHeight = $('nav').innerHeight();
 
     $('html, body').animate({
-        scrollTop: targetOffset - menuHeight
-    }, 900);
-});
-
-$('.introduçao-Lex .content-introduçao a').click(function(e){
-    e.preventDefault();
-    var id = $(this).attr('href'),
-        targetOffset = $(id).offset().top
-
-    $('html, body').animate({
         scrollTop: targetOffset
     }, 900);
 });
@@ -47,7 +37,7 @@ $('.nav-footer a').click(function(e){
         menuHeight = $('nav').innerHeight();
 
     $('html, body').animate({
-        scrollTop: targetOffset - menuHeight
+        scrollTop: targetOffset
     }, 900);
 });
 
@@ -58,6 +48,6 @@ $('.sobre-lex .container-sobre-lex a').click(function(e){
         menuHeight = $('nav').innerHeight();
 
     $('html, body').animate({
-        scrollTop: targetOffset - menuHeight
+        scrollTop: targetOffset
     }, 900);
 });
